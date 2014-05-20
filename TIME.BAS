@@ -1,0 +1,10 @@
+CLS
+TIME$ = "00:00:00"
+FOR ti = 1 TO 1000
+CLS
+PRINT TIME$
+IF TIME$ = "00:00:30" THEN PRINT " Times up": END
+FOR i = 1 TO 2000
+NEXT i
+NEXT ti
+
